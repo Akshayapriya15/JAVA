@@ -37,7 +37,7 @@ public class bankc {
          bankc obj = new bankc("a2346", 1000);
          obj.display();
          obj.deposit(500);
-        
+         obj.display();
          obj.withdraw(200);
            obj.display();
      }

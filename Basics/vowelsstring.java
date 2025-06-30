@@ -7,7 +7,7 @@ public class vowelsstring {
 
         for (int i = 0; i <= str.length() - 1; i++) {
             char ch = str.charAt(i);
-            if (ch >= 'a' && ch <= 'z') {
+            if (ch >= 'a' && ch <= 'z' && Character.isLetter(ch)) {
                 switch (ch) {
                     case 'a', 'e', 'i', 'o', 'u' -> vowel++;
                     default -> consonance++;
